@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.addButton{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  
+
+}
+.book-container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.remove-btn, .read-btn{
+    
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.book-card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+
+}
+.book-card > h6{
+    margin: 10px 30%;
+}
+
